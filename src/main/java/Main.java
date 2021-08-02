@@ -8,7 +8,7 @@ public class Main {
         int sum = service.sumSales(sales);
         System.out.println(sum);
 
-        int averageSum = service.averageSales(sales, sum);
+        int averageSum = service.averageSales(sales);
         System.out.println(averageSum);
 
         int maxMonth = service.maxSales(sales);
@@ -17,10 +17,10 @@ public class Main {
         int minMonth = service.minSales(sales);
         System.out.println(minMonth);
 
-        int countMin = service.countMinSales(sales, averageSum);
+        int countMin = service.countMinSales(sales);
         System.out.println(countMin);
 
-        int countMax = service.countMinSales(sales, averageSum);
+        int countMax = service.countMinSales(sales);
         System.out.println(countMax);
 
     }

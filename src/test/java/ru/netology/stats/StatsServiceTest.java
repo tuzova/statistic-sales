@@ -23,7 +23,7 @@ class StatsServiceTest {
         int sum = 180;
         long expected = 15;
 
-        int averageSum = service.averageSales(sales, sum);
+        int averageSum = service.averageSales(sales);
         assertEquals(expected, averageSum);
     }
 
@@ -57,7 +57,7 @@ class StatsServiceTest {
         int averageSum = 15;
         long expected = 5;
 
-        int countMin = service.countMinSales(sales, averageSum);
+        int countMin = service.countMinSales(sales);
         assertEquals(expected, countMin);
     }
 
@@ -69,7 +69,7 @@ class StatsServiceTest {
         int averageSum = 15;
         long expected = 5;
 
-        int countMax = service.countMinSales(sales, averageSum);
+        int countMax = service.countMinSales(sales);
         assertEquals(expected, countMax);
     }
 }
