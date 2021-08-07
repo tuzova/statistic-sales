@@ -11,7 +11,7 @@ public class Main {
         int averageSum = service.averageSales(sales);
         System.out.println(averageSum);
 
-        int maxMonth = service.maxSales(sales);
+        long maxMonth = service.maxSales(sales);
         System.out.println(maxMonth);
 
         int minMonth = service.minSales(sales);

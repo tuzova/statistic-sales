@@ -34,7 +34,7 @@ class StatsServiceTest {
         long[] sales = { 8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18 };
         long expected = 8;
 
-        int maxMonth = service.maxSales(sales);
+        long maxMonth = service.maxSales(sales);
         assertEquals(expected, maxMonth);
     }
 
